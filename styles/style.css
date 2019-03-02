@@ -1,0 +1,152 @@
+@import url(font-awesome.min.css);
+
+body {
+    display: block;
+    padding: 5% 25%;
+    margin: 0;
+    z-index: -2;
+
+    /*background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");*/
+    /*background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");*/
+    /*background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");*/
+    /*background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");*/
+
+    /*background-image: url("../images/abstract-bright-color-397998.jpg");*/
+    background-image: url("../images/black-and-white-clouds-cold-994883.jpg");
+    background-size: cover;
+
+    /*background-image: url("../images/backlit-blogging-business-34153.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: right;*/
+    /*background-size: auto 100%;*/
+    /*background-color: #242424;*/
+
+    color: #414f57;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+
+#card {
+    background: white;
+    box-shadow: 0 0 10px lightgray;
+    opacity: 0.95;
+    z-index: -1;
+    padding-bottom: 0.5em;
+
+    text-align: center;
+}
+
+
+    /*BIO*/
+    .bio {
+        position: relative;
+        border-radius: 4px;
+        padding: 4.5em 3em 3em 3em;
+    }
+
+    #card .avatar {
+        position: relative;
+        display: block;
+        margin-bottom: 1.5em;
+    }
+
+        #card .avatar img {
+            display: block;
+            margin: 0 auto;
+            border-radius: 100%;
+            box-shadow: 0 0 0 1.5em white;
+        }
+
+        #card .avatar:before {
+            content: '';
+            display: block;
+
+            position:absolute;
+            top: 50%;
+            left: -3em;
+            width: calc(100% + 6em);
+            height: 1px;
+            z-index: -1;
+
+            /*background: #c8cccf;*/
+            background: #808487;
+        }
+
+        @media screen and (max-width: 480px) {
+            #card {
+                padding: 4em 2em 2.5em 2em;
+                width: 100%;
+            }
+            #card .avatar:before {
+                left: -2em;
+                width: calc(100% + 4em);
+            }
+        }
+
+
+    /*CONTACTS*/
+
+        /*ICONS*/
+        ul.icons {
+            cursor: default;
+            list-style: none;
+            padding-left: 0;
+            margin-top: -0.675em;
+        }
+
+            ul.icons li {
+                display: inline-block;
+                padding: 0.675em 0.5em;
+            }
+
+                ul.icons li a {
+                    position: relative;
+                    display: block;
+                    width: 3.75em;
+                    height: 3.75em;
+
+                    border-radius: 100%;
+                    border: solid 1px #808487;
+                    line-height: 3.75em;
+                    overflow: hidden;
+
+                    text-decoration: none;
+                    text-align: center;
+                    text-indent: 3.75em;
+                    white-space: nowrap;
+                }
+
+                ul.icons li a:before {
+                    -moz-osx-font-smoothing: grayscale;
+                    -webkit-font-smoothing: antialiased;
+                    font-family: FontAwesome;
+                    font-style: normal;
+                    font-weight: normal;
+                    text-transform: none !important;
+                }
+
+                ul.icons li a:before {
+                    color: #ffffff;
+                    text-shadow: 1.25px 0px 0px #808487, -1.25px 0px 0px #808487, 0px 1.25px 0px #808487, 0px -1.25px 0px #808487;
+                }
+
+                ul.icons li a:hover:before {
+                    text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+                }
+
+                ul.icons li a:before {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: inherit;
+                    height: inherit;
+                    font-size: 1.85rem;
+                    line-height: inherit;
+                    text-align: center;
+                    text-indent: 0;
+                }
+
+                ul.icons li a:hover {
+                    border-color: #ff7496;
+                }
