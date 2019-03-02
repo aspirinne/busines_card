@@ -6,17 +6,12 @@ body {
     margin: 0;
     z-index: -2;
 
-    /*background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");*/
-    /*background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");*/
-    /*background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");*/
-    /*background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35)), url("../images/bg.jpg");*/
-
     /*background-image: url("../images/abstract-bright-color-397998.jpg");*/
     background-image: url("../images/black-and-white-clouds-cold-994883.jpg");
     background-size: cover;
 
     /*background-image: url("../images/backlit-blogging-business-34153.jpg");*/
-    /*background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     /*background-position: right;*/
     /*background-size: auto 100%;*/
     /*background-color: #242424;*/
@@ -120,7 +115,7 @@ body {
                 ul.icons li a:before {
                     -moz-osx-font-smoothing: grayscale;
                     -webkit-font-smoothing: antialiased;
-                    font-family: FontAwesome;
+                    font-family: FontAwesome, serif;
                     font-style: normal;
                     font-weight: normal;
                     text-transform: none !important;
@@ -128,11 +123,11 @@ body {
 
                 ul.icons li a:before {
                     color: #ffffff;
-                    text-shadow: 1.25px 0px 0px #808487, -1.25px 0px 0px #808487, 0px 1.25px 0px #808487, 0px -1.25px 0px #808487;
+                    text-shadow: 1px 0 0 #808487, -1.25px 0 0 #808487, 0 1px 0 #808487, 0 -1.25px 0 #808487;
                 }
 
                 ul.icons li a:hover:before {
-                    text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+                    text-shadow: 1px 0 0 #ff7496, -1.25px 0 0 #ff7496, 0 1px 0 #ff7496, 0 -1.25px 0 #ff7496;
                 }
 
                 ul.icons li a:before {
