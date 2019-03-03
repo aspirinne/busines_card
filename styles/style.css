@@ -6,12 +6,13 @@ body {
     margin: 0;
     z-index: -2;
 
+    background-repeat: no-repeat;
+
     /*background-image: url("../images/abstract-bright-color-397998.jpg");*/
     background-image: url("../images/black-and-white-clouds-cold-994883.jpg");
     background-size: cover;
 
     /*background-image: url("../images/backlit-blogging-business-34153.jpg");*/
-    background-repeat: no-repeat;
     /*background-position: right;*/
     /*background-size: auto 100%;*/
     /*background-color: #242424;*/
