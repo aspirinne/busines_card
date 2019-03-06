@@ -19,6 +19,12 @@ body {
         background-image: none;
     }
 }
+@media screen and (max-height: 768px) {
+    body {
+        padding: 0;
+        background-image: none;
+    }
+}
 @media screen and (min-width: 768px) {
     body {
         /*background-image: url("../images/abstract-bright-color-397998.jpg");*/
