@@ -2,7 +2,6 @@
 
 body {
     display: block;
-    padding: 5% 25%;
     margin: 0;
     z-index: -2;
 
@@ -27,6 +26,8 @@ body {
 }
 @media screen and (min-width: 768px) {
     body {
+        padding: 5% 25%;
+
         /*background-image: url("../images/abstract-bright-color-397998.jpg");*/
         background-image: url("../images/black-and-white-clouds-cold-994883.jpg");
         background-size: cover;
